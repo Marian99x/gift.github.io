@@ -1,0 +1,37 @@
+  
+  
+  .flex-item {
+    background: tomato;
+    padding: 4px;
+    width: auto;
+    height: 100px;
+    margin-top: 10px;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  
+.fade-in-img{
+  opacity: 1.00;
+  -webkit-transition: 2s all ease-in-out;
+  -moz-transition: 2s all ease-in-out;
+  -o-transition: 2s all ease-in-out;
+  transition: 2s all ease-in-out;
+}
+
+.fade-out-img{
+  opacity: 0.00;
+  -webkit-transition: 2s all ease-in-out;
+  -moz-transition: 2s all ease-in-out;
+  -o-transition: 2s all ease-in-out;
+  transition: 2s all ease-in-out;
+}
+
+.img-first{
+  width: 200px; 
+  height: auto
+}
+
